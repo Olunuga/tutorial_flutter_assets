@@ -1,0 +1,42 @@
+name: tutorial_flutter_assets_yt
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - json/Settings.json
+    - images/happy.jpg
+    - images/laptop.jpg
+    - images/load/
+    - images/card/masterCard.png
+    - images/card/2.0x/masterCard.png
+    - images/card/3.0x/masterCard.png
+    - images/icon/dumbel.png
+    -
+  fonts:
+    - family: CustomIcon
+      fonts:
+        - asset: images/icon/CustomIcon.ttf
+
+
+
+
+
+
